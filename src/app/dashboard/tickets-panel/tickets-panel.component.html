@@ -1,0 +1,40 @@
+<div class = "container">
+    <div class = "top">
+        <div class = "tl">
+            <div class = "tlhead">
+                <p>Ticket Sales</p>
+                <p> Today <fa-icon class="oicon"  [icon]="faChevronCircleDown"></fa-icon></p>
+            </div>
+            <div class = "amount">
+                ₦ 345,000
+            </div>
+
+            <div class = "analytics">
+                <div class = "h">
+                    +8% from yesterday
+                </div>
+            </div>
+
+              <div class="graph">
+  <apx-chart style="height:150px"
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [title]="chartOptions.title"
+  ></apx-chart>
+</div>
+        </div>
+
+        <div class = "tc">
+        
+        </div>
+
+        <div class = "tr">
+        
+        </div>
+    </div>
+
+    <div class = "bottom">
+        
+    </div>
+</div>

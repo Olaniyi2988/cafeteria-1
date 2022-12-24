@@ -1,0 +1,12 @@
+.container{
+    height:auto;
+    width:100%;
+    background-color:#DFDFDF;
+
+}
+.header{
+    background-color:white;
+}
+.router{
+    min-height: 50%;
+}
