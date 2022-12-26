@@ -16,25 +16,82 @@
             </div>
 
               <div class="graph">
-  <apx-chart style="height:150px"
+  <apx-chart style="height:200px"
+    
     [series]="chartOptions.series"
     [chart]="chartOptions.chart"
     [xaxis]="chartOptions.xaxis"
+    [yaxis]="chartOptions.yaxis"
     [title]="chartOptions.title"
+    [grid]="chartOptions.grid"
+    [plotOptions]="chartOptions.plotOptions"
+    
   ></apx-chart>
 </div>
         </div>
 
         <div class = "tc">
-        
+            <div class="tp">
+                <input class="input" type="text"> <button class="ec-button">Enter Code</button>
+            </div>
+
+
+            <div class="btm">
+                <div class="btm-l">
+                    <div class="btm-head">
+                        <h3>Ticket Details</h3>
+                    </div>
+                </div>
+                <div class="btm-r">
+                    <div class="accept-ticket">
+                        <p class="a">Accept Ticket</p>
+                        <fa-icon class="aicon"  [icon]="faCheckCircle"></fa-icon>
+                    </div>
+                    <div class="report-ticket">
+                        <fa-icon class="ricon"  [icon]="faExclamationTriangle"></fa-icon>
+                        <p class="rtext">Report Ticket</p>
+                    </div>
+                </div>
+                
+            </div>
         </div>
 
         <div class = "tr">
+            <div class = "tlhead">
+                <p>Ticket Consumed</p>
+                <p> Today <fa-icon class="oicon"  [icon]="faChevronCircleDown"></fa-icon></p>
+            </div>
+            <div class="ticket-number">
+                <p class="number">145</p>
+            </div>
         
         </div>
     </div>
 
     <div class = "bottom">
-        
+        <div class="left">
+            <div class="lhead">
+            <p class="rt">Recent Tickets</p>
+            <p class="sa">See All >>></p>
+            </div>
+
+            <table class="recent-tickets">
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>Moyosoore Samuel</td>
+                    <td>1500</td>
+                    <td><span class="pain">Paid</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="right">
+
+        </div>
     </div>
 </div>
