@@ -10,3 +10,24 @@
 .router{
     min-height: 50%;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background:#FECA14;
+    
+  }
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background:#DFDFDF;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
