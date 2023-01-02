@@ -1,12 +1,10 @@
 .container{
-    height:auto;
-    width:100%;
-    background-color:#DFDFDF;
-    padding-bottom: 10px;
+    background-color:#DFDFDF !important;
+    padding-bottom: 10px !important;
 
 }
 .header{
-    background-color:white;
+    background-color:white !important;
 }
 .router{
     min-height: 50%;

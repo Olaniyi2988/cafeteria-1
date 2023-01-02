@@ -255,6 +255,7 @@ margin-top: 8px;
     display: flex;
     justify-content: space-between;
     background-color: #FECA14;
+    padding: 10px;
 }
 .rt{
     margin-left: 20px;

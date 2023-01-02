@@ -8,8 +8,8 @@
     margin: auto;
 }
 .container{
-    height:97%;
-    width:97%;
+    height:97% !important;
+    width:97% !important;
     display: flex;
     
 }

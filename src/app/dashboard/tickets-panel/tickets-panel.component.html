@@ -1,6 +1,6 @@
 <div class = "container">
     <div class = "top">
-        <div class = "tl">
+        <div class = "tl p-3">
             <div class = "tlhead">
                 <p>Ticket Sales</p>
                 <p> Today <fa-icon class="oicon"  [icon]="faChevronCircleDown"></fa-icon></p>
@@ -15,19 +15,17 @@
                 </div>
             </div>
 
-              <div class="graph">
-  <apx-chart style="height:200px"
-    
-    [series]="chartOptions.series"
-    [chart]="chartOptions.chart"
-    [xaxis]="chartOptions.xaxis"
-    [yaxis]="chartOptions.yaxis"
-    [title]="chartOptions.title"
-    [grid]="chartOptions.grid"
-    [plotOptions]="chartOptions.plotOptions"
-    
-  ></apx-chart>
-</div>
+            <div class="graph">
+                <apx-chart style="height:200px"
+                    [series]="chartOptions.series"
+                    [chart]="chartOptions.chart"
+                    [xaxis]="chartOptions.xaxis"
+                    [yaxis]="chartOptions.yaxis"
+                    [title]="chartOptions.title"
+                    [grid]="chartOptions.grid"
+                    [plotOptions]="chartOptions.plotOptions"
+                ></apx-chart>
+            </div>
         </div>
 
         <div class = "tc">
@@ -56,7 +54,7 @@
             </div>
         </div>
 
-        <div class = "tr">
+        <div class = "tr p-3">
             <div class = "tlhead">
                 <p>Ticket Consumed</p>
                 <p> Today <fa-icon class="oicon"  [icon]="faChevronCircleDown"></fa-icon></p>
