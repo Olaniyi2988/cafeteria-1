@@ -25,6 +25,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'main': '#FECA14',
+      'green': '#166534',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
