@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,ts}",
+    "./src/**/*.{css,html,ts}",
   ],
   theme: {
     screens: {
@@ -25,7 +25,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'main': '#FECA14',
-      'green': '#166534',
+      'green': '#00AB3A',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
